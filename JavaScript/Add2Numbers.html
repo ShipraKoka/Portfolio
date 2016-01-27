@@ -1,0 +1,25 @@
+<html>
+<body>
+	
+	Enter a number: <input type="text" id="firstNumber" value="" /></br>
+	Enter another number: <input type="text" id="secondNumber" value="" /></br>
+	<input type="button" id="addButton" value="Add" /></br>
+	<input type="text" id="sumOfNumbers" value = "" />	
+	
+	<script>
+		var x;
+		var y;
+		
+		function AddNumbers(){
+		x = document.getElementById("firstNumber").value;
+		y = document.getElementById("secondNumber").value;
+		var sum = Number(x) + Number(y);
+		document.getElementById("sumOfNumbers").value = sum;
+		}
+		
+		var AddButton = document.getElementById("addButton");
+		AddButton.onclick = AddNumbers;
+	</script>
+	
+</body>
+</html>
