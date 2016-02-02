@@ -1,25 +1,7 @@
 ### Library Database
 
-During the SQL course with The Tech Academy I was assigned to create a library database that consists of 7 related tables. I inserted data 
+During the SQL course with The Tech Academy I was assigned to create a library database that consists of 7 related tables. I inserted data into each of the tables and wrote several SQL queries against the database. Additionally, I created stored procedures for two of the queries, and another to insert a correct date anytime a new record was added.
 
-into each of the tables and wrote several SQL queries against the database. Additionally, I created stored procedures for two of the queries, 
+While building the database schema, I realized that the tables which were to be referenced by another and required a primary key, would need to be created first. And I used foreign keys for the referencing tables. Two of the tables, required more than one foreign key each, as they referenced multiple tables. I also learned to be careful when creating tables and defining their columns, and set length requirements for certain data types that will accomodate the data to be input later in those fields.
 
-and another to insert a correct date anytime a new record was added.
-
-
-While building the database schema, I realized that the tables which were to be referenced by another and required a primary key, would 
-
-need to be created first. And I used foreign keys for the referencing tables. Two of the tables, required more than one foreign key each, as 
-
-they referenced multiple tables. I also learned to be careful when creating tables and defining their columns, and set length requirements for 
-
-certain data types that will accomodate the data to be input later in those fields.
-
-
-The biggest challenge I encountered with this project was finding a way to generate a date anytime a new record was added. The Book 
-
-Loans table required a due date which I decided would be 1 month from the check out date. I wanted to create a stored procedure that 
-
-would calculate and insert this date automatically. To read a detailed description of how I resolved this issue, please feel free to read my blog post 
-
-here.
+The biggest challenge I encountered with this project was finding a way to generate a date anytime a new record was added. The Book Loans table required a due date which I decided would be 1 month from the check out date. I wanted to create a stored procedure that would calculate and insert this date automatically. To read a detailed description of how I resolved this issue, please feel free to read my blog post here.
