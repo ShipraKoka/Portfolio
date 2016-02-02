@@ -7,10 +7,10 @@ I was assigned to create a text-based game applying what I have learned so far i
 The user is dealt a hand of 4 cards from a 52 card deck, one for each suit.
  
 Example:	
-	*2 of Diamonds
-	*7 of Hearts
-	*Queen of Spades
-	*Ace of Clubs
+*2 of Diamonds
+*7 of Hearts
+*Queen of Spades
+*Ace of Clubs
 	
 The object of the game is to acquire a hand where all 4 cards are of the same rank.
 
