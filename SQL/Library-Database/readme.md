@@ -1,6 +1,6 @@
 ### Library Database
 
-During the SQL course with The Tech Academy I was assigned to create a library database that consists of 7 related tables. I inserted data into each of the tables and wrote several SQL queries against the database. Additionally, I created stored procedures for two of the queries, and another to insert a correct date anytime a new record was added.
+During the SQL course with The Tech Academy I was assigned to create a library database that consists of 7 related tables. I inserted data into each of the tables and wrote several SQL queries against the database. To populate the Book_Copies table of the database, I imported data from a text file using the Bulk Copy Program (BCP) command-line utility. Additionally, I created stored procedures for two of the queries, and another to insert a correct date anytime a new record was added.
 
 While building the database schema, I realized that the tables which were to be referenced by another and required a primary key, would need to be created first. And I used foreign keys for the referencing tables. Two of the tables, required more than one foreign key each, as they referenced multiple tables. I also learned to be careful when creating tables and defining their columns, and set length requirements for certain data types that will accomodate the data to be input later in those fields.
 
