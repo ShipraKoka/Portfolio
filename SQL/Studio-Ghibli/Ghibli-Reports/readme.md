@@ -1,6 +1,6 @@
 ### Studio Ghibli Reports
 
-
+  
 ##### Report 1 - Films Per Decade
 ------
 The first report is a column chart that displays the number of movies released every decade since the 1960s.
@@ -24,7 +24,8 @@ and then wrote another one to set labels that would correspond to those aggregat
     true, 0)  
 ```  
 As a result, the chart now displays columns, each representing the number of films released every ten years.
-
+  
+  
 ##### Report 2 - Film Ratings
 ------
 The second report is a matrix that displays the rating for each film.
@@ -34,7 +35,8 @@ I set the Column Group to Rating and Row Group to Title. Since I wanted the appr
 ```  
     =IIF(IsNothing(Fields!Rating.Value), Nothing, "Plum")  
 ```
-
+  
+  
 ##### Report 3 - Ghibli Movies
 ------
 The third report is a table that displays the film title, its director, rating, runtime and release date, and has interactive sorting enabled for each column. 
