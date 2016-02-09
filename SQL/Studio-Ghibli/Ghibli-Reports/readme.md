@@ -42,4 +42,7 @@ I set the Column Group to Rating and Row Group to Title. Since I wanted the appr
 The third report is a table that displays the film title, its director, rating, runtime and release date, and has interactive sorting enabled for each column. 
 
 ######Lessons Learned    
-I wanted to export the report to a pdf file to push onto my Github, but noticed extra blank pages being saved. Most of the table took up the first page, while the last row ended up on the third page. The second and fourth pages were blank, despite the fact that the preview showed the entire table on one page. I found that decreasing the width of the body properties, as well as the right and left margins of the report properties got rid of those extra pages and kept the table from splitting up after exporting it to pdf.
+I wanted to export the report to a pdf file to push onto my Github, but noticed extra blank pages being saved. Most of the table took up the first page, while the last row ended up on the third page. The second and fourth pages were blank, despite the fact that the preview showed the entire table on one page. I found that decreasing the width of the body properties, as well as the right and left margins of the report properties got rid of those extra pages and kept the table from splitting up after exporting it to pdf.  
+
+<br>
+You can read my blog post about deploying these reports [here](http://www.shiprakoka.com/february-2-2016/).
