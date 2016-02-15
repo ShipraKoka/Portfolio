@@ -1,0 +1,6 @@
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\bin\Debug\DailyFileTransfer.exe.config
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\bin\Debug\DailyFileTransfer.exe
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\bin\Debug\DailyFileTransfer.pdb
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\obj\Debug\DailyFileTransfer.csprojResolveAssemblyReference.cache
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\obj\Debug\DailyFileTransfer.exe
+C:\C#Programs\DailyFileTransfer\DailyFileTransfer\obj\Debug\DailyFileTransfer.pdb
