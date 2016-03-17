@@ -1,0 +1,103 @@
+﻿/*
+* {
+    outline: 1px solid black !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+*/
+
+body {
+    background-color: azure;
+    color: black;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    position: relative;
+}
+
+
+
+h3 {
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+    margin: auto;
+}
+
+ul {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+
+
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.body-content {
+    background-color: dimgray;
+}
+
+
+
+.imageSection{
+    display: inline-block;
+}
+
+#page1 {
+    position: relative;
+    background-image: url("../Content/Images/afterfive_cover.jpg")
+}
+
+#page1 img {
+    width: 400px;
+    height: 400px;
+}
+
+#page1 img.active {
+    display:block;
+}
+
+#designs {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact {
+    display: flex;
+}
+
+
+.threeTitles {
+    text-align: center;
+}
+
+section {
+    padding: 15px;
+}
