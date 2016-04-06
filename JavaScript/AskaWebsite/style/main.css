@@ -18,6 +18,11 @@ header, section, footer, aside {
 
 }
 
+.navbar-custom {
+    background-color: #333;
+    
+}
+
 /* Links ---------------------------------------*/
 .navbar-nav a:focus {
     color: black;
@@ -40,10 +45,6 @@ a:visited {
 }
 /* Links --------------------------------------*/
 
-#change-design {
-    width: 300px;
-    height: 520px;
-}
 
 .contact-info {
     margin-top: 20px;
@@ -55,9 +56,13 @@ a:visited {
     margin-bottom: 20px;
 }
 
-.navbar-custom {
-    background-color: #333;
-    
+
+
+
+
+#image-swap img {
+    width: 300px;
+    height: 520px;
 }
 
 

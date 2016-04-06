@@ -1,19 +1,22 @@
 ﻿$(document).ready(function () {
-    var imageName = ["/content/images/afterfive edited small.jpg", "/content/images/active_edited_1.jpg"];
+
+    // Swap Images------------------------
+    var imageName = ["/content/images/active_edited_1.jpg", "/content/images/evening edited 1.jpg", "/content/images/afterfive edited small.jpg"];
     var indexNum = 0;
 
     setInterval(function () {
-        if (indexNum > 1) {
+        if (indexNum > 2) {
             indexNum = 0;
         }
-        $("#change-design").fadeOut(300, function () {
-            $("#change-design").attr("src", imageName[indexNum]);
+        $(".active").fadeOut(300, function () {
+            $(".active").attr("src", imageName[indexNum]);
             indexNum++;
 
-            $("#change-design").fadeIn(500);
+            $(".active").fadeIn(500);
         })
     }, 2000);
 
+    // Smooth Scroll-----------------------
     $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
