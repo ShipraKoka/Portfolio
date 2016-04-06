@@ -8,11 +8,11 @@
         if (indexNum > 2) {
             indexNum = 0;
         }
-        $(".active").fadeOut(300, function () {
-            $(".active").attr("src", imageName[indexNum]);
+        $(".image-swap").fadeOut(300, function () {
+            $(".image-swap").attr("src", imageName[indexNum]);
             indexNum++;
 
-            $(".active").fadeIn(500);
+            $(".image-swap").fadeIn(500);
         })
     }, 2000);
 
