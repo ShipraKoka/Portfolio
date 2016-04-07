@@ -1,0 +1,111 @@
+﻿/*
+* {
+    outline: 1px solid red !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+*/
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header, section, footer, aside {
+    display: block;
+
+}
+
+.navbar-custom {
+    background-color: #333;  
+}
+
+/* Links ---------------------------------------*/
+.navbar-nav a:focus {
+    color: black;
+}
+
+li > a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: white;
+    
+}
+/* Links --------------------------------------*/
+
+
+.contact-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images3 {
+    width: 320px;
+    height: 520px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    margin-top: 0;
+}
+
+
+
+ol {
+    padding: 20px;
+}
+
+ol li {
+    background-color: ghostwhite;
+    border-radius: 40%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#page1 {
+    background-color: #27718A;
+    padding-top: 85px;
+
+}
+
+#page2 {
+    background-color: #BACFD6;
+    padding-top: 50px;
+}
+
+#page3 {
+    background-color: #789E6C;
+    padding-top: 50px;
+}
+
+.personal-info {
+    width: 300px;
+}
+
+section {
+    height: 100vh;
+    
+}
+
+
