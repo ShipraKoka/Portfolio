@@ -1,2 +1,21 @@
-﻿body {
+﻿body header {
+    display: block;
+}
+
+.page-title {
+    position: relative;
+    margin: auto;
+    width: 200px;
+    top: 20px;
+}
+
+#needle {
+    position: absolute;
+    top: 10px;
+}
+
+h1 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0.0;
 }
