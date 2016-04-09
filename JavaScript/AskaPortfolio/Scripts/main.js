@@ -14,7 +14,7 @@
 
             $(".image-swap").fadeIn(500);
         })
-    }, 2000);
+    }, 5000);
 
     // Smooth Scroll-----------------------
     $(function () {

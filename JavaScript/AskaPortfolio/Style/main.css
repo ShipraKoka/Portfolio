@@ -84,18 +84,18 @@ ol li {
 }
 
 #page1 {
-    background-color: #27718A;
+    background-color: lightgray;
     padding-top: 85px;
 
 }
 
 #page2 {
-    background-color: #BACFD6;
+    background-color: white;
     padding-top: 50px;
 }
 
 #page3 {
-    background-color: #789E6C;
+    background-color: darkgray;
     padding-top: 50px;
 }
 
