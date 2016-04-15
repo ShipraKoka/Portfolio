@@ -21,7 +21,8 @@ Please feel free to check out my [LinkedIn profile](https://www.linkedin.com/in/
 
 #### MVC
 ---
-* [Task List]
+* [Task List](https://github.com/ShipraKoka/Portfolio/tree/master/MVC/TaskList)
+
 #### Team Projects
 ---
 * Live Project
