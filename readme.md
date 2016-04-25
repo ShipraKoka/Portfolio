@@ -19,10 +19,6 @@ Please feel free to check out my [LinkedIn profile](https://www.linkedin.com/in/
 ---
 * [Daily File Transfer Program](https://github.com/ShipraKoka/Portfolio/tree/master/C-Sharp/DailyFileTransfer)
 
-#### MVC
----
-* [Task List](https://github.com/ShipraKoka/Portfolio/tree/master/MVC/TaskList)
-
 #### Team Projects
 ---
 * Live Project
