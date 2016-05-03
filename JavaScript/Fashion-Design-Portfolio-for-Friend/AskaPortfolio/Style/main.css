@@ -55,9 +55,13 @@ a:visited {
     margin-bottom: 20px;
 }
 
+.imageRow {
+    padding-top: 30px;
+}
+
 .images3 {
-    width: 320px;
-    height: 520px;
+    width: 180px;
+    height: 200px;
 }
 
 img {
