@@ -258,31 +258,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="activewear.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Images\active_dress.jpg" />
     <Content Include="Content\Images\active_edited_1.jpg" />
-    <Content Include="Content\Images\active_wear_2016.jpg" />
-    <Content Include="Content\Images\active_wear_sketch_and_flat.jpg" />
-    <Content Include="Content\Images\afterfive edited 2.jpg" />
     <Content Include="Content\Images\afterfive edited small.jpg" />
-    <Content Include="Content\Images\afterfive flats.jpg" />
-    <Content Include="Content\Images\afterfive_cover.jpg" />
-    <Content Include="Content\Images\cordinated_sports_wear_2016.jpg" />
-    <Content Include="Content\Images\cordinated_sports_wear_2_2016 pics.jpg" />
-    <Content Include="Content\Images\evening cover.jpg" />
     <Content Include="Content\Images\evening edited 1.jpg" />
-    <Content Include="Content\Images\evening edited 2.jpg" />
-    <Content Include="Content\Images\evening flats.jpg" />
-    <Content Include="Content\Images\flats swim active.jpg" />
-    <Content Include="Content\Images\kimono dresses portfolio 2016 pics.jpg" />
-    <Content Include="Content\Images\linkedin.png" />
-    <Content Include="Content\Images\mens shirt.jpg" />
-    <Content Include="Content\Images\needle.png" />
-    <Content Include="Content\Images\sketch_women_cord_sportswear.jpg" />
-    <Content Include="Content\Images\sketch_women_winter_coat.jpg" />
-    <Content Include="Content\Images\sketch_women_winter_dress.jpg" />
-    <Content Include="Content\Images\swim edited 1 .jpg" />
-    <Content Include="Content\Images\swim edited 2.jpg" />
     <Content Include="credits.html" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\sketches.js" />
